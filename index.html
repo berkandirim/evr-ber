@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
         <script src="//use.typekit.net/uji6gef.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
 	</head>
 	<body>
 
@@ -30,16 +31,12 @@
 
 		<!-- Signup Form -->
         <p><i class="icon fa-hand-o-down"></i> Lütfen katılım durumunuzu belirtin</p>
-        <form id="signup-form" method="post" action="#">
+        <form id="signup-form" method="post" action="" onsubmit="return onFormSubmitted()">
             <input type="text" name="name" id="name" placeholder="İsminiz" />
             <input type="email" name="email" id="email" placeholder="Eposta Adresiniz" />
-            <textarea name="note" id="" cols="30" rows="4" placeholder="Notunuz (ör. Kaç kişi geleceksiniz, kalacak yer var mı?)"></textarea>
+            <textarea name="note" id="note" cols="30" rows="4" placeholder="Notunuz (ör. Kaç kişi geleceksiniz, kalacak yer var mı?)"></textarea>
             <input type="submit" value="Katılıyorum" />
         </form>
-
-		<!-- Scripts -->
-        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-        <script src="assets/js/main.min.js"></script>
 
         <!-- Footer -->
         <footer id="footer">
@@ -49,6 +46,11 @@
             <a class="icon fa-cloud-upload" href="https://www.dropbox.com/request/zo6AOWfT3yDGLS54djll" target="_blank"> Fotoğraflarınızı yüklemek için tıklayın.</a><br>
             <span class="exp">(Açılan pencerede mavi butona tıklayarak dosyaları seçebilirsiniz.)</span>
         </footer>
+
+        <!-- Scripts -->
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.min.js"></script>
+        <script src="assets/js/post.min.js"></script>
 
 	</body>
 </html>

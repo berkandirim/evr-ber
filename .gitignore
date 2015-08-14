@@ -1,7 +1,10 @@
 .DS_Store
 .idea
+*.map
 .sass-cache
 *.codekit
 assets/sass
+assets/js/main.js
+assets/js/post.js
 
 
