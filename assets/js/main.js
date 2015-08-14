@@ -108,6 +108,7 @@
 			// Vars.
 				var $form = document.querySelectorAll('#signup-form')[0],
 					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
+					_name = document.getElementById("name").value,
 					$message;
 
 			// Bail if addEventListener isn't supported.
@@ -160,8 +161,7 @@
 								$submit.disabled = false;
 
 							// Show message.
-								$message._show('success', 'Teşekkürler!');
-								//$message._show('failure', 'Bir problem yaşandı.');
+							$message._show('success', '√ Teşekkürler!');
 
 						}, 750);
 
