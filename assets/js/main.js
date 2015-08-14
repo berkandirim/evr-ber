@@ -1,8 +1,4 @@
-/*
-	Eventually by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 (function() {
 
@@ -164,8 +160,8 @@
 								$submit.disabled = false;
 
 							// Show message.
-								$message._show('success', 'Thank you!');
-								//$message._show('failure', 'Something went wrong. Please try again.');
+								$message._show('success', 'Teşekkürler!');
+								//$message._show('failure', 'Bir problem yaşandı.');
 
 						}, 750);
 
