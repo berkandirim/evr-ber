@@ -1,3 +1,4 @@
 .sass-cache
 *.codekit
 assets/sass
+.idea
