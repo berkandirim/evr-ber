@@ -5,7 +5,6 @@ function onFormSubmitted() {
 
     var _name = document.getElementById("name").value;
     var _email = document.getElementById("email").value;
-    var _note = document.getElementById("note").value;
     var _date = new Date().getTime();
 
     var postsRef = ref.child("formData");
@@ -15,7 +14,6 @@ function onFormSubmitted() {
         var newPostRef = postsRef.push({
             name: _name,
             email: _email,
-            note: _note,
             date: _date
 
         });
