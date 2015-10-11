@@ -4,7 +4,6 @@ function onFormSubmitted() {
     var ref = new Firebase("https://resplendent-torch-7515.firebaseio.com/");
 
     var _name = document.getElementById("name").value;
-    var _email = document.getElementById("email").value;
     var _date = new Date().getTime();
 
     var postsRef = ref.child("formData");
@@ -13,7 +12,6 @@ function onFormSubmitted() {
     } else {
         var newPostRef = postsRef.push({
             name: _name,
-            email: _email,
             date: _date
 
         });
