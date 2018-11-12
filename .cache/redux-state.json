@@ -621,12 +621,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-04T09:59:05.511Z",
+      "buildTime": "2018-11-12T07:25:12.084Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d38e35fc609804383c1f39c0ab1bb273",
+        "contentDigest": "4b096d0662e342515987cc23eaacb187",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -719,7 +719,7 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-index-js"
       ]
     },
     "connections": {}
@@ -730,7 +730,8 @@
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-index-js": 755544856
   },
   "components": {
     "/Users/dirimber/Sites/evr-ber/.cache/dev-404-page.js": {
@@ -751,11 +752,11 @@
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-layout-js": {
+    "sq--src-components-layout-index-js": {
       "name": "SiteTitleQuery",
-      "componentPath": "/Users/dirimber/Sites/evr-ber/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
+      "componentPath": "/Users/dirimber/Sites/evr-ber/src/components/layout/index.js",
+      "id": "sq--src-components-layout-index-js",
+      "jsonName": "sq--src-components-layout-index-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "hash": 755544856
     }
