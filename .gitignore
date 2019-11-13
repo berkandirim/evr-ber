@@ -3,6 +3,3 @@
 *.map
 .sass-cache
 *.codekit
-assets/js/main.js
-assets/js/post.js
-assets/sass
